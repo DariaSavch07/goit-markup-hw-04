@@ -212,8 +212,19 @@ color: #fff;
     padding: 120px 0;
 }
 
+.description-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
+
 .main-section-title {
-    padding-top: 8px;
+    
     margin-bottom: 8px;
 }
 
@@ -258,16 +269,6 @@ flex-basis: 264px;
 background-color: #FFFFFF;
 }
 
-.description-link {
-    background-color: #f4f4fd;
-    display: flex;
-    padding-top: 24px;
-    justify-content: center;
-    border: 1px solid #8e8f99;
-border-radius: 4px;
-height: 112px;
-gap: 24px;
-}
 
 
 /* section people */
