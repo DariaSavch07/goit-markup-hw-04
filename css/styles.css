@@ -433,8 +433,12 @@ background-color: #31d0aa;
 
 .footer-div-icon {
     display: flex;
+}
+
+.footer-ul-text {
     gap: 16px;
 }
+
 
 .link-footer {
     width: 100%; 
@@ -447,7 +451,7 @@ background-color: #31d0aa;
 }
 
 .footer-icon {
-    fill:#f4f4fd;
     width: 40px;
     height: 40px;
+    fill:#f4f4fd;
 }
