@@ -364,8 +364,6 @@ height: 40px;
     row-gap: 48px;
     column-gap: 24px;
     display: flex;
-    position: relative;
-    overflow: hidden;
 }
 
 .portfolio {
@@ -377,21 +375,29 @@ height: 40px;
 .section-div-photo:hover,
 .section-div-photo:focus {
     cursor: pointer;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transform: translateY(0%);
+}
+
+.section-div-photo {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 transform: translateY(0%);
 }
 
 .section-itime-portfolio {
+    position: relative;
+    overflow: hidden;
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-photo {
-    display:flex;
+    display:block;
     height: 300px;
 }
 
 .img-text {
+    height: 100%;
+    width: 100%; 
     position: absolute;
     top: 0;
     font-size: 16px;
@@ -400,9 +406,8 @@ transform: translateY(0%);
     color: #f4f4fd;
     padding: 40px 32px;
     background-color: #4d5ae5;
-    height: 100%;
-    width: 100%; 
     transform: translateY(100%);
+    transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
