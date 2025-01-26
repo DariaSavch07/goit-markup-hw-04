@@ -374,13 +374,13 @@ height: 40px;
 
 .section-div-photo:hover,
 .section-div-photo:focus {
-    transform: translateY(0%);
     cursor: pointer;
 }
 
 .section-div-photo {
     position: relative;
     overflow: hidden;
+    transform: translateY(0%);
 }
 
 .section-itime-portfolio {
