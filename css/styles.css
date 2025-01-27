@@ -360,13 +360,13 @@ justify-content: center;
     row-gap: 48px;
     column-gap: 24px;
     display: flex;
+    transform: translateY(0%);
 }
 
 .portfolio {
     border: 1px solid #e7e9fc;
     border-top: none;
     padding: 32px 16px;
-    transform: translateY(0%);
 }
 
 .section-itime-portfolio:hover,
