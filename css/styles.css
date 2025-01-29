@@ -310,6 +310,11 @@ width:calc((100% - 72px) / 4);
     text-align: center;
 }
 
+.section-div-text {
+    text-align: center;
+    padding-bottom: 8px;
+}
+
 .section-text {
     text-align:center;
     display: flex;
